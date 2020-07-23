@@ -1,6 +1,6 @@
 import requests as req
 import re
-class WebClawler():
+class WebCrawler():
 
     def readPage(self, url, regex):
         r = req.get(url)
