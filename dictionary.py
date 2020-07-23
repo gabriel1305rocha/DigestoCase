@@ -1,7 +1,6 @@
 class Dictionary():
     
     def format_dict(self, find, headers):
-        headers = ['Memory', 'vCPUs', 'Transfer', 'SSD Disk', '$/HR', '$/MO']
         contHeader = 0
         contDict = 0
         pricingDict = [{}]
